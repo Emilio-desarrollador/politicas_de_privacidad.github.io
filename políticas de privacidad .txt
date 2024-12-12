@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - Agrolunar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        p {
+            margin: 10px 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Política de Privacidad</h1>
+        <p><strong>Última actualización:</strong> 2 de noviembre de 2024</p>
+    </header>
+    <main>
+        <h2>Introducción</h2>
+        <p>En <strong>Agrolunar</strong>, nos comprometemos a proteger tu privacidad. Esta política describe cómo gestionamos la información en nuestra aplicación, que ofrece orientación sobre actividades agrícolas basadas en las fases lunares e incluye anuncios de AdMob.</p>
+
+        <h2>1. Información que Recopilamos</h2>
+        <p>Nuestra aplicación no recopila información personal identificable. Sin embargo, los servicios de terceros, como AdMob, pueden recopilar ciertos datos para mostrar anuncios personalizados.</p>
+
+        <h2>2. Anuncios</h2>
+        <p>Utilizamos AdMob para mostrar anuncios en nuestra aplicación. AdMob puede recopilar información sobre tu dispositivo y tus actividades en la app para personalizar los anuncios. Consulta más detalles en la <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de AdMob</a>.</p>
+
+        <h2>3. Uso de la Información</h2>
+        <p>La información no personal obtenida a través de AdMob se usa exclusivamente para mejorar tu experiencia y personalizar los anuncios que ves.</p>
+
+        <h2>4. Seguridad de la Información</h2>
+        <p>Nos esforzamos por proteger los datos manejados en nuestra aplicación implementando medidas de seguridad adecuadas.</p>
+
+        <h2>5. Cambios en esta Política de Privacidad</h2>
+        <p>Esta política puede actualizarse en cualquier momento. Te notificaremos sobre cualquier cambio publicando la nueva versión en esta página.</p>
+
+        <h2>6. Contacto</h2>
+        <p>Si tienes preguntas o inquietudes, contáctanos en <a href="mailto:appsagricolas6@gmail.com">appsagricolas6@gmail.com</a>.</p>
+    </main>
+    <footer>
+        &copy; 2024 Agrolunar. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
