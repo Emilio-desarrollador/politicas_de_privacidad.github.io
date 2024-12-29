@@ -6,59 +6,118 @@
     <title>Política de Privacidad - Agrolunar</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f8f9fa;
-            color: #333;
+            background: linear-gradient(to bottom, #0d1b2a, #1b263b); /* Fondo degradado */
+            color: #e0e1dd; /* Texto claro */
             line-height: 1.6;
         }
+
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro con transparencia */
+            padding: 20px 0;
             text-align: center;
+            color: #008037; /* Verde oscuro */
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 2s ease-in-out;
         }
-        header h1 {
-            margin: 0;
-            font-size: 1.8em;
+
+        header p {
+            font-size: 1rem;
+            margin: 5px 0 0;
         }
+
         main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.2); /* Fondo claro con transparencia */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            text-align: justify;
+            animation: slideIn 1.5s ease-out;
         }
+
         h2 {
-            color: #4CAF50;
+            color: #a0c9a8; /* Verde suave */
+            margin-top: 20px;
         }
+
         p {
             margin: 10px 0;
         }
+
         a {
-            color: #4CAF50;
+            color: #008037; /* Verde oscuro */
             text-decoration: none;
+            font-weight: bold;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #bbb;
             text-align: center;
             padding: 10px 0;
-            background-color: #4CAF50;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            font-size: 0.9rem;
+            box-shadow: 0 -8px 20px rgba(0, 0, 0, 0.7);
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Animaciones */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Media Query para dispositivos pequeños */
+        @media (max-width: 600px) {
+            header {
+                font-size: 1.5rem;
+            }
+
+            main {
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+
+            footer {
+                font-size: 0.8rem;
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Política de Privacidad</h1>
-        <p><strong>Última actualización:</strong> 23 de diciembre de 2024</p>
+        <p><strong>Última actualización:</strong> 29 de diciembre de 2024</p>
     </header>
     <main>
         <h2>Introducción</h2>
@@ -70,6 +129,9 @@
         <h2>2. Anuncios</h2>
         <p>Utilizamos AdMob para mostrar anuncios en nuestra aplicación. AdMob puede recopilar información sobre tu dispositivo y tus actividades en la app para personalizar los anuncios. Consulta más detalles en la <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de AdMob</a>.</p>
         
+        <h2>2.1 Verificación de AdMob</h2>
+        <p>Nuestra aplicación respeta tu privacidad. Además, para asegurar la correcta integración con AdMob y la gestión de anuncios, hemos incluido un archivo de verificación en el siguiente enlace. Este archivo es solo para fines de verificación y no recoge ningún dato personal de los usuarios. <a href="https://emilio-desarrollador.github.io/app-ads.github.io/" target="_blank">Enlace al archivo de verificación de AdMob</a>.</p>
+
         <h2>3. Uso de la Información</h2>
         <p>La información no personal obtenida a través de AdMob se usa exclusivamente para mejorar tu experiencia y personalizar los anuncios que ves.</p>
 
